@@ -1,18 +1,30 @@
 {
   "name": "numeric-ninja",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple math library with vectors and utilities",
   "main": "index.js",
+  "keywords": [
+    "math",
+    "vector",
+    "vector2",
+    "vector3"
+  ],
+  "homepage": "https://github.com/R9N9Ga7/numeric-ninja#readme",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts",
+    "utils.js",
+    "vector2.js",
+    "vector3.js",
+    "package.json",
+    "README.md"
   ]
 }
