@@ -84,6 +84,8 @@ export declare class Vector3 {
   static downVector(): Vector3;
   static leftVector(): Vector3;
   static rightVector(): Vector3;
+  static forwardVector(): Vector3;
+  static backVector(): Vector3;
 
   toString(): string;
   clone(): Vector3;
