@@ -2,7 +2,7 @@ export declare class Vector2 {
   x: number;
   y: number;
 
-  constructor(x: number = 0, y: number = 0);
+  constructor(x: number, y: number);
 
   set(x: number, y: number): void;
   setVector2(vector: Vector2): void;
@@ -48,7 +48,7 @@ export declare class Vector3 {
   y: number;
   z: number;
 
-  constructor(x: number = 0, y: number = 0, z: number = 0);
+  constructor(x: number, y: number, z: number);
 
   set(x: number, y: number, z: number): void;
   setVector3(vector: Vector3): void;
@@ -105,7 +105,7 @@ export declare class Utils {
   static pingPong(value: number, length: number): number;
   static deltaAngle(current: number, target: number): number;
   static isEqualNum(x: number, y: number): boolean;
-  static getRandomFloatInRange01(minInclusive: number = 0, maxExclusive: number = 1): number;
+  static getRandomFloatInRange01(minInclusive: number, maxExclusive: number): number;
   static getRandomIntInRange(minInclusive: number, maxExclusive: number): number;
   static isNumber(value: number): boolean;
   static isNumeric(value: number | string): boolean;
