@@ -3,24 +3,24 @@
   - [Vector](#vector)
     - [public](#public)
       - [Components of the vector](#components-of-the-vector)
-      - [set and setVector](#`set`-and-`setVector`)
-      - [`add`, `sub`, `mul` and `div`](#`add`,-`sub`,-`mul`-and-`div`)
-      - [isEqual](#`isEqual`)
-      - [getMagnitude()](#`getMagnitude()`)
-      - [getSqrMagnitude](#`getSqrMagnitude`)
-      - [getNormalized](#`getNormalized`)
-      - [normalize](#`normalize`)
-      - [toString](#`toString`)
-      - [clone](#`clone`)
+      - [set and setVector](#set-and-setvector)
+      - [add, sub, mul and div](#add-sub-mul-and-div)
+      - [isEqual](#isequal)
+      - [getMagnitude](#getmagnitude)
+      - [getSqrMagnitude](#getsqrmagnitude)
+      - [getNormalized](#getnormalized)
+      - [normalize](#normalize)
+      - [toString](#tostring)
+      - [clone](#clone)
     - [static](#static)
-      - [lerp](#`lerp`)
-      - [lerpUnclamped](#`lerpUnclamped`)
-      - [dotProduct](#`dotProduct`)
-      - [reflect](#`reflect`)
-      - [angle](#`angle`)
-      - [distance](#`distance`)
-      - [Vector2 constants](#`vector2-constants`)
-      - [Vector3 constants](#`vector2-constants`)
+      - [lerp](#lerp)
+      - [lerpUnclamped](#lerpunclamped)
+      - [dotProduct](#dotproduct)
+      - [reflect](#reflect)
+      - [angle](#angle)
+      - [distance](#distance)
+      - [Vector2 constants](#vector2-constants)
+      - [Vector3 constants](#vector2-constants)
   - [Utils](#utils)
 
 ## Vector
@@ -150,6 +150,7 @@ z: number;
 ```
 
 #### `set` and `setVector`
+
 Sets values to the current class
 
 **Vector2**
