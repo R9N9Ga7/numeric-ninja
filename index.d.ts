@@ -110,7 +110,7 @@ export declare class Utils {
   static deltaAngle(current: number, target: number): number;
   static isEqualNum(x: number, y: number): boolean;
   static getRandomFloatInRange01(minInclusive: number, maxExclusive: number): number;
-  static getRandomIntInRange(minInclusive: number, maxExclusive: number): number;
+  static getRandomIntInRange(minInclusive: number, maxInclusive: number): number;
   static isNumber(value: number): boolean;
   static isNumeric(value: number | string): boolean;
 }
