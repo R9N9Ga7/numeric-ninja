@@ -20,7 +20,7 @@
       - [angle](#angle)
       - [distance](#distance)
       - [Vector2 constants](#vector2-constants)
-      - [Vector3 constants](#vector2-constants)
+      - [Vector3 constants](#vector3-constants)
   - [Utils](#utils)
 
 ## Vector
@@ -34,6 +34,7 @@ export declare class Vector2 {
   y: number;
 
   constructor(x: number = 0, y: number = 0);
+  constructor();
 
   set(x: number, y: number): void;
   setVector2(vector: Vector2): void;
@@ -87,6 +88,7 @@ export declare class Vector3 {
   z: number;
 
   constructor(x: number = 0, y: number = 0, z: number = 0);
+  constructor();
 
   set(x: number, y: number, z: number): void;
   setVector3(vector: Vector3): void;
@@ -435,7 +437,7 @@ export declare class Utils {
   static deltaAngle(current: number, target: number): number;
   static isEqualNum(x: number, y: number): boolean;
   static getRandomFloatInRange01(minInclusive: number, maxExclusive: number): number;
-  static getRandomIntInRange(minInclusive: number, maxExclusive: number): number;
+  static getRandomIntInRange(minInclusive: number, maxInclusive: number): number;
   static isNumber(value: number): boolean;
   static isNumeric(value: number | string): boolean;
 }
