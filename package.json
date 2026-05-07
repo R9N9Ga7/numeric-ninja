@@ -10,7 +10,10 @@
     "vector3"
   ],
   "homepage": "https://github.com/R9N9Ga7/numeric-ninja#readme",
-  "repository": "https://github.com/R9N9Ga7/numeric-ninja",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R9N9Ga7/numeric-ninja.git"
+  },
   "scripts": {
     "test": "jest",
     "typecheck": "tsc --noEmit",
