@@ -30,9 +30,11 @@ class Utils {
   }
 
   static lerpAngle(a, b, t) {
-    const delta = this.repeat(b - a, this.fullAngleInDeg);
-    return delta > this.halfFullAngleInDeg
-      ? delta - this.fullAngleInDeg : a + delta * this.clamp01(t)
+    let delta = this.repeat(b - a, this.fullAngleInDeg);
+    if (delta > this.halfFullAngleInDeg) {
+      delta -= this.fullAngleInDeg;
+    }
+    return a + delta * this.clamp01(t);
   }
 
   static repeat(value, length) {

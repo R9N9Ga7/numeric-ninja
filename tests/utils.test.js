@@ -28,6 +28,16 @@ describe('Utils', () => {
     expect(Utils.lerpAngle(0, 180, 0.5)).toBe(90);
   });
 
+  test('lerpAngle: wraps across 360 on the shortest arc', () => {
+    expect(Utils.lerpAngle(350, 10, 0.5)).toBe(360);
+    expect(Utils.lerpAngle(10, 350, 0.5)).toBe(0);
+  });
+
+  test('lerpAngle: respects t when wrapping', () => {
+    expect(Utils.lerpAngle(350, 10, 0.25)).toBe(355);
+    expect(Utils.lerpAngle(350, 10, 1)).toBe(370);
+  });
+
   test('repeat', () => {
     expect(Utils.repeat(15, 10)).toBe(5);
   });
