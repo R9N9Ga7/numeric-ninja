@@ -1,4 +1,17 @@
 # numeric-ninja
+
+## Quick Start
+
+```ts
+const { Vector2, Vector3, Utils } = require('numeric-ninja');
+
+const a = new Vector2(1, 2);
+const b = new Vector2(3, 4);
+
+console.log(a.add(b).toString()); // x: 4 y: 6
+console.log(Utils.lerp(0, 10, 0.5)); // 5
+```
+
 ## Table of content
   - [Vector](#vector)
     - [public](#public)
