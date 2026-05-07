@@ -3,6 +3,7 @@ export declare class Vector2 {
   y: number;
 
   constructor(x: number, y: number);
+  constructor();
 
   set(x: number, y: number): void;
   setVector2(vector: Vector2): void;
@@ -49,6 +50,7 @@ export declare class Vector3 {
   z: number;
 
   constructor(x: number, y: number, z: number);
+  constructor();
 
   set(x: number, y: number, z: number): void;
   setVector3(vector: Vector3): void;
